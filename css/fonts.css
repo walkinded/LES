@@ -1,0 +1,49 @@
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria.woff2') format('woff2'),
+	url('../fonts/Geometria.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-Bold.woff2') format('woff2'),
+	url('../fonts/Geometria-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-Medium.woff2') format('woff2'),
+	url('../fonts/Geometria-Medium.otf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-ExtraBold.woff2') format('woff2'),
+	url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src:  url('../fonts/Geometria-Heavy.woff2') format('woff2'),
+	url('../fonts/Geometria-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Medium'), local('Muller-Medium'),
+        url('../fonts/MullerMedium.woff2') format('woff2'),
+        url('../fonts/MullerMedium.woff') format('woff'),
+        url('../fonts/MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
