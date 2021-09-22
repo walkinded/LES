@@ -2288,3 +2288,64 @@ li:not(.slick-current) .item-gallery {
   background-color: #f2f2f2;
   right: 0;
 }
+.plans {
+  height: 966px;
+}
+.absolute-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 40px;
+  left: 0;
+  object-fit: cover;
+}
+.plans__container {
+  display: flex;
+}
+.plans__info-box {
+  margin-top: 80px;
+  position: relative;
+  max-width: 565px;
+  width: 100%;
+  height: 395px;
+  background: rgba(243, 243, 243, 0.5);
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.plans__info-box_text {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 30px 40px;
+}
+.info-box_text-title {
+  font-size: 24px;
+  color: #264942;
+  margin-bottom: 30px;
+}
+.info-box_text-desc {
+  font-size: 18px;
+  color: #317265;
+  line-height: 25px;
+}
+.info-box__rooms {
+  position: absolute;
+  right: 0;
+  top: 145px;
+  z-index: -1;
+  max-width: 1106px;
+  height: 583px;
+  padding: 3px;
+  border-radius: 6px;
+  background: #f8f7f4;
+  border: 3px solid #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-box__rooms img {
+  width: 90%;
+}

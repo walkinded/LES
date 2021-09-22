@@ -287,6 +287,21 @@
 	.contacts::before {
     display: none;
 	}
+	.plans {
+    height: 780px;
+	}
+	.plans__container {
+		position: relative;
+	}
+	.plans__info-box {
+		margin-top: 30px;
+	}
+	.info-box__rooms {
+    position: absolute;
+    right: 0;
+    top: -30px;
+		max-width: 800px
+	}
 }
 
 
@@ -359,6 +374,9 @@
 	}
 	.about-conpany__desc {
     margin-left: 50px;
+	}
+	.info-box__rooms {
+    max-width: 650px;
 	}
 }
 
@@ -744,6 +762,32 @@
 	.contacts {
 		height: auto;
 	}
+	.plans {
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.plans__container {
+		flex-direction: column;
+	}
+	.info-box__rooms {
+		position: inherit;
+		top: 0;
+		height: auto;
+		max-width: 100%;
+		z-index: 0;
+	}
+	.plans__info-box {
+    margin: 0px 0 20px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+	}
+	.info-box_text-desc {
+    font-size: 16px;
+	}
+	.info-box_text-title {
+    font-size: 20px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1106,13 +1150,13 @@
 			padding-bottom: 8px;
 	}
 	.layout-modal__close {
-			font-size: 17px;
-			top: 5px;
-			right: 5px;
-			}
-			.layout-modal__image {
-			height: 275px;
-			margin-bottom: 5px;
+		font-size: 17px;
+		top: 5px;
+		right: 5px;
+	}
+	.layout-modal__image {
+		height: 275px;
+		margin-bottom: 5px;
 	}
 	.layout__feature {
 			margin-bottom: 6px;
