@@ -2209,7 +2209,6 @@ li:not(.slick-current) .item-gallery {
 }
 .contacts-item dd a {
   color: currentColor;
-  border-bottom: 1px solid currentColor;
   transition: all 0.3s;
 }
 .contacts-item dd:hover a {
@@ -2221,7 +2220,7 @@ li:not(.slick-current) .item-gallery {
 }
 .billbord__branch2_position-1 {
   top: 660px !important;
-  left: -75px;
+  left: -140px;
   z-index: 5;
 }
 .contacts-item ul {
