@@ -1323,6 +1323,12 @@
 	.wrapper_page1 {
     padding-top: 75px !important;
 	}
+	.modal {
+		padding: 20px;
+	}
+	.modal .title-middle {
+    font-size: 22px;
+	}
 }
 
 /* Custom, iPhone Retina */
