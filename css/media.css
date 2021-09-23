@@ -287,21 +287,6 @@
 	.contacts::before {
     display: none;
 	}
-	.plans {
-    height: 780px;
-	}
-	.plans__container {
-		position: relative;
-	}
-	.plans__info-box {
-		margin-top: 30px;
-	}
-	.info-box__rooms {
-    position: absolute;
-    right: 0;
-    top: -30px;
-		max-width: 800px
-	}
 }
 
 
@@ -374,9 +359,6 @@
 	}
 	.about-conpany__desc {
     margin-left: 50px;
-	}
-	.info-box__rooms {
-    max-width: 650px;
 	}
 }
 
@@ -549,6 +531,9 @@
 	}
 	.about-conpany__desc {
     margin-left: 0;
+	}
+	.choose-layout__items {
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
@@ -768,25 +753,6 @@
 	}
 	.plans__container {
 		flex-direction: column;
-	}
-	.info-box__rooms {
-		position: inherit;
-		top: 0;
-		height: auto;
-		max-width: 100%;
-		z-index: 0;
-	}
-	.plans__info-box {
-    margin: 0px 0 20px;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-	}
-	.info-box_text-desc {
-    font-size: 16px;
-	}
-	.info-box_text-title {
-    font-size: 20px;
 	}
 }
 
@@ -1171,6 +1137,29 @@
 	.item-form textarea {
 		margin-top: inherit;
 	}
+	.choose-layout__items {
+		grid-template-columns: 1fr;
+	}
+	.choose-layout__item {
+		max-width: 100%;
+		width: auto;
+	}
+	.info-box__rooms {
+		height: auto;
+	}
+	.choose-layout {
+    padding: 20px 0;
+	}
+	.choose-layout__items {
+    margin-top: 20px;
+	}
+	.item__img-box {
+    padding: 50px 10px 10px;
+	}
+	.item__img-box span {
+    top: 10px;
+    left: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1310,6 +1299,16 @@
 	}
 	.contacts-map {
     height: 250px;
+	}
+	.item__btn-box {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.item__btn-box .btn-main {
+    width: 248px;
+	}
+	.item__img-box {
+    height: 200px;
 	}
 }
 
