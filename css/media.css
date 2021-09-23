@@ -918,7 +918,7 @@
 		font-size: 22px;
 	}
 	.item-gallery {
-		width: 350px;
+		width: 300px;
 		height: 250px;
 	}
 	.slider-infrastructure__content::before,
@@ -1160,6 +1160,16 @@
     top: 10px;
     left: 20px;
 	}
+	.services .item-facility__title {
+    margin-bottom: 10px;
+	}
+	.services .item-facility__image {
+		width: 150px;
+		height: 150px;
+	}
+	.item-facility__desc {
+    font-size: 14px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1309,6 +1319,9 @@
 	}
 	.item__img-box {
     height: 200px;
+	}
+	.wrapper_page1 {
+    padding-top: 75px !important;
 	}
 }
 
