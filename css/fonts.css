@@ -47,3 +47,10 @@
     font-weight: 500;
     font-style: normal;
   }
+
+@font-face {
+	font-family: 'Ceruella-Thin';
+	src: url('../fonts/Ceruella-Thin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal; 
+}

@@ -2516,3 +2516,6 @@ li:not(.slick-current) .item-gallery {
   margin-top: 20px;
   width: 100%;
 }
+.ceruella-font {
+  font-family: 'Ceruella-Thin';
+}
