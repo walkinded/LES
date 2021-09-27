@@ -2519,3 +2519,237 @@ li:not(.slick-current) .item-gallery {
 .ceruella-font {
   font-family: 'Ceruella-Thin';
 }
+.billbord__branch2_y-position {
+  top: 700px !important;
+  z-index: 3;
+  left: -100px;
+}
+.infrastructure-page {
+  font-family: "Geometria";
+  padding-bottom: 140px;
+}
+.infrastructure_bg-img {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  right: 0;
+  top: 0;
+}
+.infrastructure-page .about-conpany__desc {
+  margin: 0;
+}
+.infrastructure-page .about-conpany__desc {
+  max-width: 900px;
+}
+
+.infrastructure-map {
+  background: #ebedf1;
+  padding: 50px 0;
+}
+
+.infrastructure-map__wrap {
+  position: relative;
+  max-width: 1599px;
+  height: 596px;
+  border-radius: 8px;
+}
+.infrastructure-map__wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.map-pin__desc {
+  position: relative;
+
+  width: 289px;
+  /* width: 100%; */
+  height: 0px;
+  
+  border-radius: 6px;
+
+  background: rgba(255, 255, 255, .4);
+
+  padding: 0px;
+  margin-bottom: 5px;
+  transition: all .5s;
+
+  font-size: 0px;
+  color: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map-pin__desc::before {
+  position: absolute;
+  content: "";
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  border-radius: 6px;
+  background: #ffffff;
+}
+.map-pin__desc p {
+  position: relative;
+  z-index: 2;
+}
+.map-pin__desc-active {
+  height: 74px;
+  padding: 6px;
+  color: #264942;
+  z-index: 2;
+  font-size: 24px;
+}
+.infrastructure-map__pin {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.infrastructure-map__pin img {
+  width: 47px !important;
+  height: 65px !important;
+  object-fit: contain !important;
+  cursor: pointer;
+  pointer-events: all;
+}
+.infrastructure-map__pin:hover{
+  z-index: 2;
+}
+.map__pin-1 {
+  top: -7px;
+  left: 685px;
+}
+.map__pin-2 {
+  bottom: 90px;
+  left: 40px;
+}
+.map__pin-3 {
+  bottom: 140px;
+  left: 150px;
+}
+.map__pin-4 {
+  bottom: 190px;
+  left: 200px;
+}
+.map__pin-5 {
+  bottom: 220px;
+  left: 320px;
+}
+.map__pin-6 {
+  bottom: 150px;
+  left: 440px;
+}
+.map__pin-7 {
+  bottom: 350px;
+  left: 430px;
+}
+.map__pin-8 {
+  bottom: 300px;
+  left: 480px;
+}
+.map__pin-9 {
+  bottom: 240px;
+  left: 550px;
+}
+.map__pin-10 {
+  bottom: 100px;
+  left: 570px;
+}
+.map__pin-11 {
+  bottom: 360px;
+  left: 660px;
+}
+.map__pin-12 {
+  bottom: 250px;
+  left: 850px;
+}
+
+
+.hull-plan {
+  background: url('../img/plans-bg.jpg') no-repeat center top / cover;
+  height: 900px;
+  margin-bottom: 200px;
+  position: relative;
+}
+.hull-plan .title-section {
+  padding-top: 20px;
+}
+.hull-plan__wrap {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  top: 0%;
+}
+.hull-plan__item-img {
+  width: 123px;
+  height: 123px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.hull-plan__item-img img {
+  max-width: 60%;
+  max-height: 100%;
+  display: block;
+  position: relative;
+}
+.hull-plan__item-img::after {
+  position: absolute;
+  display: block;
+  content: " ";
+  z-index: -1;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #fff;
+}
+.hull-plan__item-desc {
+  width: 209px;
+  height: 79px;
+  border-radius: 6px;
+  background: #ffffff;
+  position: relative;
+  top: -100px;
+  left: 80px;
+  border: 1px solid #f2f2f2;
+
+  color: #264942;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 50px;
+}
+.hull-plan__item {
+  position: absolute;
+}
+.hull-plan__item-1 {
+  bottom: 90px;
+}
+.hull-plan__item-2 {
+  left: 100px;
+  top: 150px;
+}
+.hull-plan__item-3 {
+  left: 45%;
+  top: 210px;
+}
+.hull-plan__item-4 {
+  bottom: 40px;
+  right: 140px;
+}
+.hull-plan__item-5 {
+  right: 10px;
+  top: 160px;
+}
