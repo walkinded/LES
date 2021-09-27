@@ -26,9 +26,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(".btn_nav").click(function() {
 		$(".sandwich").toggleClass("active");
 		if ($(".menu").is(":hidden")) { 
-			$(".menu").slideDown(200);
+			$(".menu").slideDown(500);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu").slideUp(500);
 		}
 		
 	});

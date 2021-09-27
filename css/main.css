@@ -222,6 +222,31 @@ p {
 
 /*End Sandwich*/
 
+ /* menu */
+ .menu {
+  margin-top: 22px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: #094b53;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 30px;
+ }
+ .menu li {
+  margin-bottom: 20px;
+}
+ .menu a {
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+ }
+ .menu a:hover {
+  border-color: #fff;
+ }
+ /* End menu */
+
 .billbord {
   padding-top: 130px;
   min-height: 918px;
@@ -2752,4 +2777,98 @@ li:not(.slick-current) .item-gallery {
 .hull-plan__item-5 {
   right: 10px;
   top: 160px;
+}
+.about-sanatorium-page {
+height: 1003px;
+}
+.about-sanatorium-page .about-conpany__desc {
+  margin: 0;
+  max-width: 860px;
+}
+.about-sanatorium-page .infrastructure_bg-img {
+  height: 1003px;
+}
+.history {
+  position: relative;
+}
+.history__text {
+  max-width: 1110px;
+  margin: 40px auto 0;
+  text-align: justify;
+  line-height: 40px;
+}
+.history__text p {
+  font-size: 24px;
+  color: #264942;
+  margin-bottom: 50px;
+}
+.history-bg-absol {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* height: 943px; */
+  height: auto;
+  object-fit: cover;
+}
+.item-facility__text {
+  text-align: left;
+}
+
+.sanatoriyum-today {
+  background: url('../img/sanatoriyum-today-bg.png') no-repeat center top / cover;
+  padding: 85px 0;
+}
+.sanatoriyum-today .title-big {
+  margin: 0 auto 80px;
+  text-align: center;
+}
+.sanatoriyum-today__wrap {
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+}
+.sanatoriyum-today__item .item-facility {
+  display: flex;
+  align-items: center;
+  max-width: 455px;
+  min-height: 173px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.sanatoriyum-today__item .item-facility__image {
+  min-width: 123px;
+  max-width: 123px;
+  height: 123px;
+  margin: 0 20px auto 0;
+}
+.sanatoriyum-today__item .item-facility__desc {
+  margin-top: 20px;
+}
+.sanatoriyum-today__item-map {
+  position: relative;
+  max-width: 1017px;
+  width: 100%;
+  height: 670px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background: url('../img/infrastructure-map.jpg') no-repeat center left / cover;
+}
+.sanatoriyum-today__pin {
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sanatoriyum-today__pin .map-pin__desc {
+  display: flex;
+  height: 72px;
+  color: #094b53;
+  font-size: 24px;
+}
+.gallery_no-bg {
+  background: none;
 }

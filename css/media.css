@@ -344,6 +344,14 @@
 		bottom: 250px;
     left: 650px;
 	}
+	.sanatoriyum-today__item-map {
+    max-width: 765px;
+	}
+
+	.about-sanatorium-page,
+	.about-sanatorium-page .infrastructure_bg-img {
+    height: 800px;
+	}
 }
 
 @media only screen and (max-width : 1366px) {
@@ -394,6 +402,9 @@
 	.map__pin-12 {
 		bottom: 250px;
     left: 600px;
+	}
+	.sanatoriyum-today__item-map {
+    max-width: 700px;
 	}
 }
 
@@ -484,6 +495,9 @@
 	.map__pin-11,
 	.map__pin-12 {
 		display: none;
+	}
+	.sanatoriyum-today__item-map {
+    max-width: 600px;
 	}
 }
 
@@ -679,6 +693,12 @@
 	.map__pin-2 {
     bottom: 190px;
     left: 0px;
+	}
+	.sanatoriyum-today__item-map {
+    max-width: 400px;
+	}
+	.about-sanatorium-page, .about-sanatorium-page .infrastructure_bg-img {
+    height: 700px;
 	}
 }
 
@@ -908,6 +928,32 @@
 	.map__pin-2 {
     bottom: 140px;
     left: 0px;
+	}
+
+	.sanatoriyum-today__wrap {
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+	}
+	.sanatoriyum-today__item-map {
+    max-width: 100%;
+    width: auto;
+		height: 300px;
+	}
+	.sanatoriyum-today__pin {
+		bottom: 70px;
+    left: 0px;
+	}
+	.sanatoriyum-today__item .item-facility {
+    max-width: 100%;
+	}
+	.about-sanatorium-page {
+    height: 100%;
+		padding-bottom: 30px;
+	}
+	.about-sanatorium-page .infrastructure_bg-img {
+    z-index: -1;
 	}
 }
 
@@ -1343,6 +1389,21 @@
 	.infrastructure-page {
     padding-bottom: 40px;
 	}
+	.menu {
+		font-size: 18px;
+	}
+	.history__text p {
+    line-height: 28px;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.history-bg-absol {
+    height: 100%;
+	}
+	.history__text {
+		max-width: 1110px;
+		margin: 10px auto 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1505,6 +1566,12 @@
 	.map__pin-2 {
     bottom: 60px;
     left: 0px;
+	}
+	.sanatoriyum-today__item .item-facility {
+    flex-direction: column;
+	}
+	.sanatoriyum-today__item .item-facility__image {
+    margin: 0 0 20px 0;
 	}
 }
 
